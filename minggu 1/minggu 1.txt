@@ -1,0 +1,4 @@
+hal yang dipelajari :
+1. membahas tentang pemograman
+2. contoh contoh pemograman web
+3. perbedaan antara git dengan github
