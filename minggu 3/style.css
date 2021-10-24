@@ -1,0 +1,83 @@
+body{
+    font:16px/28px arial, sans-serif;
+    background-image: url(foto/webb-dark.png);
+    color: rgb(116, 58, 170);
+    width: 1100px;
+    margin: auto;
+    font-family: inria sans - italic;
+}
+.container{
+    background:black;
+    
+}
+.judul {
+    padding: 20px;  
+}
+.header{
+    margin-top: 20px;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 1;
+    top: 0;
+    background: black;
+}
+.header ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border-top:5 px solid rgb(116, 58, 170);
+}
+.header a{
+    text-decoration: none;
+    padding: 5px;
+}
+.header a:hover{
+    background-color: rgb(150, 17, 202);
+    color: white;
+}
+.Biodata{
+    background-image: url(foto/langit.jpg);
+    height: 550px;
+}
+.bio{
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.foto{
+    margin-left: 40px;
+    margin-top: 50px;
+    border: 2px;
+    border-radius: 5%;
+    float: left;
+}
+.table{
+    width: 750px;
+    height: auto;
+    margin-top: 50px;
+    float: right;
+}
+.krs{
+    background-image: url(foto/langit_muda.jpg);
+    background-size: cover;
+    color:#9370DB;
+}
+.judul_krs{
+    margin-left: 40px;
+    padding: 20px;
+}
+.table_krs{
+    margin-left: 50px;
+}
+
+.heading_video{
+    padding: 15px;
+}
+.back_video{
+    background-image: url(foto/langit5.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.video{
+    margin-left: 50px;
+}
