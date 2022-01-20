@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>history</title>
+    <link rel="stylesheet" type="text/css" href="history.css">
+</head>
+<body>
+    <header>
+        <div class="atas"><img src="Logo2.png" height="100px"></div>
+        <div class="profil"><img src="image 2 (1).png" width="60px" height="60px"></div>
+        <div class="kotak"></div>
+    </header>
+    <div class="isi" style="display: flex">
+        <main>
+            <ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="tampilanhome.html">Home</a>
+                </li>
+                <hr width="200%">
+                <li class="nav-item">
+                  <a class="nav-link" href="profil.html">Profil</a>
+                </li>
+                <hr width="200%">
+                <li class="nav-item">
+                  <a class="nav-link" href="history.html">History</a>
+                </li>
+                <hr width="200%">
+                <li class="nav-item">
+                  <a class="nav-link" href="keep.html">Keep</a>
+                </li>
+                <hr width="200%">
+                <li class="nav-item">
+                  <a class="nav-link" href="tampilanhome.html">Logout</a>
+                </li>
+              </ul>
+        </main>
+        <aside>
+            <div id="clock"></div>
+            <script type='text/javascript'>
+                var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+                var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+                var date = new Date();
+                var day = date.getDate();
+                var month = date.getMonth();
+                var thisDay = date.getDay(),
+                    thisDay = myDays[thisDay];
+                var yy = date.getYear();
+                var year = (yy < 1000) ? yy + 1900 : yy;
+                document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+            </script>
+        </aside>
+    </div>
+</body>
+</html>

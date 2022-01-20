@@ -1,0 +1,75 @@
+.atas{
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background-color:#2ADED3;
+}
+.profil{
+    position: absolute;
+    left: 1250px;
+    top: 19px;
+    border-radius: 100px;
+}
+main{
+    padding-top: 200px;
+
+}
+.login{
+    position: absolute;
+    width: 589px;
+    height: 500px;
+    left: 420px;
+    top: 170px;
+    border-radius: 30px;
+    border-color: rgb(0, 0, 0);
+    border: 3px;
+    border: 2px solid black;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+table{
+    width: 550px;
+    font-size: 30px;
+    margin: 25px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+input[type=email]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+input[type=password]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+button{
+    margin-left: 60%;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #16FFF1;
+}

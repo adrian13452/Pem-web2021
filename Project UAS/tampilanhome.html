@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurnal</title>
+    <link rel="stylesheet" type="text/css" href="tampilanhome.css">
+</head>
+<body>
+    <header>
+        <div class="atas"><img src="Logo2.png" height="100px"></div>
+        <div class="profil"><img src="image 2 (1).png" width="60px" height="60px"></div>
+        <div class="kotak">
+          <img src="menu.png" class="img-navbar" alt="" style="position: absolute;">
+          <div class="navbar-link">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="tampilanhome.html">Home</a>
+              </li><hr width="80px">
+              <li class="nav-item">
+                <a class="nav-link" href="profil.html">Profil</a>
+              </li><hr width="80px">
+              <li class="nav-item">
+                <a class="nav-link" href="history.html">History</a>
+              </li><hr width="80px">
+              <li class="nav-item">
+                <a class="nav-link" href="keep.html">Keep</a>
+              </li><hr width="80px">
+              <li class="nav-item">
+                <a class="nav-link" href="tampilanhome.html">Logout</a>
+              </li><hr width="80px">
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Create account</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </header>
+    <main style="background-color: white;">
+        <div class="judul">KITA PASTI BISA</div>
+        <div class="tabel">
+            <input type="text" name="" id="" placeholder="search">
+        </div>
+    </main>
+    <script>
+      const imgNavbar = document.querySelector(".img-navbar");
+      const navbarLink = document.querySelector(".navbar-link");
+      imgNavbar.addEventListener("click", function () {
+        if (navbarLink.style.display == "none") {
+          navbarLink.style.display = "block";
+        } else {
+          navbarLink.style.display = "none";
+        }
+      });
+    </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+.atas{
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background-color:#2ADED3;
+}
+.profil{
+    display: flex;
+    position: absolute;
+    left: 1250px;
+    top: 19px;
+    border-radius: 100px;
+}
+main{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    border-color: rgb(0, 0, 0);
+    border: 3px;
+    border: 2px solid black;
+}
+main ul{
+    font-size: 21px;
+    padding-left: 25%;
+    font-style: bold;
+}
+main ul li {
+    text-align: center;
+    padding-left: 60%;
+}
+aside{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 1440px;
+    margin-left: 40px;
+}
+.isi{
+    position: fixed;
+    top: 100px;
+}
+.ganti{
+    margin-top: 30px;
+}
+form{
+    position: absolute;
+    left: 270px;
+    bottom: 20px;
+    font-size: 30px;
+}
+input[type=text]{
+    width: 400px;
+}
+button{
+    margin-left: 362px;
+}
+.formku{
+    padding-top: 460px;
+    margin-left: 30px;
+}
+input[type=password]{
+    width: 460px;
+    height: 18px;
+}
+.formku button{
+    margin-left: 600px;
+}
+input[type=file]{
+    position: fixed;
+    top: 340px;
+    left: 360px;
+}

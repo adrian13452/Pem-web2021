@@ -1,0 +1,69 @@
+.atas{
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background-color:#2ADED3;
+}
+.profil{
+    position: absolute;
+    left: 1250px;
+    top: 19px;
+    border-radius: 100px;
+}
+main{
+    padding-top: 200px;
+
+}
+.login{
+    position: absolute;
+    width: 589px;
+    height: 406px;
+    left: 420px;
+    top: 170px;
+    border-radius: 30px;
+    border-color: rgb(0, 0, 0);
+    border: 3px;
+    border: 2px solid black;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+form{
+    font-size: 40px;
+    padding-left: 50px;
+}
+input[type=text]{
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+input[type=password]{
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+button{
+    padding:5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 360px;
+    background-color: white;
+}
+.crate{
+    margin-top: 70px;
+    margin-left: 280px;
+}
